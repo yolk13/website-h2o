@@ -1,0 +1,422 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+	color: black;
+	font-family: 'Lato', sans-serif;
+}
+h1{
+	font-size: 2.5rem;
+}
+.headtext p{
+  font-family: 'Cormorant Upright', serif;
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+/*Main Page CSS*/
+
+/*Nav-Bar*/
+.navbar{
+  background-color: white !important;
+}
+.new-header a{
+  font-weight: bolder;
+}
+
+.new-header-name a{
+  font-size: 28px;
+}
+.nav-mid{
+  margin-left: 300px;
+}
+.nav-mid li{
+  padding: 0 20px;
+}
+
+/*Banner*/
+.home-slider img{
+  height: 85vh;
+  object-fit: cover;
+}
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/*Branch Area*/
+.branch-area{
+  padding-top: 10px;
+}
+.branch-display{
+  padding:10px;
+}
+.branch-display img{
+  width: 25%;
+  height: 85%;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 1000px) and (min-width: 960px ){
+  .partner .row .col-md-6 h2{
+    font-size: 1.5rem;
+  }
+  .partner img{
+    height: 6vh;
+    width: 6vh;
+  }
+}
+
+/*Online Delivery Partner*/
+.partner{
+  padding:20px;
+}
+/*.partner .text-right{
+  padding-top: 1.8%;
+}*/
+.partner img{
+  /*height: 8vh;*/
+  width: 10%;
+}
+
+/*Home Footer*/
+.endfooter{
+ border-top:double black;
+}
+.endfooter p{
+  margin-bottom: 0px;
+  margin-top:-5px;
+}
+.endfooter a{
+  text-decoration: none;
+  color: grey;
+}
+
+/*Branch Page*/
+
+/*Slider*/
+.main-slider{
+  padding: 0;
+
+}
+.slider{
+  padding:5vh 0;
+}
+.slider img{
+  height: 42vh;
+  width: 33vw;
+  padding: 5px;
+}
+/*SLIDeR END*/
+
+.menuslider{
+  margin-top: 5vh;
+}
+.menuhead{
+  margin-bottom: 5vh;
+}
+.menuslider img{
+    height: 100vh !important;
+    width:40vw !important;
+    padding-left:4vw;
+}
+.menu-container {
+  max-width: 40vw;
+  max-height: 100vh;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.menu-container div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.menu-container img {
+  width: 40vw;
+  height: 100vh;
+}
+
+.menu-slider .uk-light a{
+  color:black !important;
+}
+.uk-light svg{
+  height: 9vh;
+  width: 7vw;
+}
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/*About CSS*/
+.about{
+  padding: 5vh 3vw 0 3vw;
+  border-bottom: 2px solid black;
+}
+.abouthead{
+  margin-bottom: 5vh;
+}
+  .aboutcontent{
+    margin-bottom: 7vh;
+  }
+.about-content{
+  padding: 50px 10px 10px 10px;
+  text-align: justify;
+  text-align-last: center;
+  color: black;
+  border: 1px solid;
+  border-radius: 1%;
+}
+
+.about-map iframe{
+  border-radius: 1%;
+}
+/*About CSS END*/
+
+.event{
+  margin: 5vh 0;
+  border-bottom: 2px solid black;
+}
+
+.eventhead{
+  margin-bottom: 0px;
+}
+
+.eventslider img{
+  height: 75vh;
+  width: 40vw;
+  margin-top: 1vh;
+}
+
+.reservationhead{
+  margin-bottom: 5vh;
+}
+
+.reservationsubmit{
+  margin-top: 5vh;
+}
+
+.formclass{
+  width: 40%;
+  margin: 0 30% 5vh 30%;
+}
+
+/*Footer Css*/
+footer{
+  border-top:solid rgba(0,0,0);
+  /*background-color: rgb(239, 204, 162);*/
+  color: black;
+  padding: 10px 0px;
+}
+footer h3{
+  color: black;
+}
+h3 a{
+  color: black;
+}
+footer .col-md-4{
+  padding:0px;
+}
+.first-box,.second-box{
+  border-right: solid #000;
+}
+footer .closed{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+footer .closeda{
+  border-top: 1px solid white;
+}
+footer .third{
+  padding-top: 15px;
+}
+footer .social img{
+  height: 30px;
+}
+.topfooter{
+  padding-bottom: 10px;
+  margin:10px 0px;
+}
+.topfooter .social a{
+  padding: 5px;
+}
+.endfooter{
+  border-top:double;
+  padding-top: 10px;
+}
+.endfooter p{
+  margin-bottom: 0px;
+}
+.endfooter a{
+  color: gray;
+  font-style: inherit;
+}
+.findus img{
+  height: 8vh;
+  width: 5vw;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+/*FOOTER END*/
+
+/*Career Page*/
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.button {
+  border: 1px solid grey;
+  color: black;
+  background-color: rgba(239, 204, 162);
+  background-color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+/*End Career*/
+
+/*About Page*/
+.card-menu{
+ margin:0 40px 10vh 100px;
+}
+.card-menu .flip-card-front {
+  height: 70vh;
+  width: 22vw;
+  border-radius: 5%;
+}
+.card-menu a{
+  text-decoration: none;
+}
+
+.card a:hover{
+  text-decoration: none;
+}
+
+.career{
+  border-top: 2px solid;
+  padding: 5vh 0;
+}
+
+.joinus{
+  padding: 0px 40px 0px 40px;
+  border-right:  groove black;
+}
+
+.joinus p{
+  margin: 0px 20px;
+}
+
+.careerh2o{
+  padding-bottom: 6.2vh;
+}
+
+.card{
+  width: 20%;
+  margin: 6%;
+  height: 25vw;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/beer.jpg');
+  background-size: cover;
+  color: white;
+}

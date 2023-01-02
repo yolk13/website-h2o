@@ -1,0 +1,559 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-family: 'Raleway', sans-serif; 
+}
+.headtext p{
+  font-family: 'Cormorant Upright', serif;
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+h1{
+  font-size: 2.5rem;
+}
+p{
+  margin: 20px 0 25px 0;
+}
+
+.new-header a{
+  font-weight: bolder;
+}
+
+.new-header-name a{
+  font-size: 23px;
+}
+
+.new-header-name a:hover{
+  transform: scale(1.04);
+}
+
+.new-header-menu a:hover{
+  transform: scale(1.001);
+}
+
+.headtext p{
+  font-family: 'Cormorant Upright', serif;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 25px;
+}
+/*Main Page CSS*/
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.branch-display img{
+  width: 45%;
+  border-radius: 50%;
+}
+.branch-display .col-md-4{
+  width: 33%;
+  padding: 20px 0;
+}
+.partner{
+  padding-top: 20px;
+}
+.partner .text-right{
+  text-align: center !important;
+}
+.partner .text-left{
+  text-align: center !important;
+  padding: 0 0 10px 0;
+}
+.partner img{
+  width: 15%;
+  border-radius: 50%;
+  padding: 10px 10px;
+  float: center;
+}
+.partner .col-md-6 .col-md-4{
+  width: 33%;
+  text-align: center;
+}
+.partner .text-right h2{
+  margin-top: 10px;
+}
+.endfooter{
+ border-top:double black;
+}
+.endfooter p{
+  margin: 0px;
+  padding: 5px 0;
+  font-size: 0.7rem;
+}
+.endfooter a{
+  text-decoration: none;
+  color: grey;
+}
+
+/*Footer*/
+footer{
+  border-top:solid rgba(0,0,0);
+  color: black;
+  padding: 10px 0px;
+}
+footer h3{
+  color: black;
+  font-size: 1.17em;
+}
+h3 a{
+  color: black;
+}
+footer .col-md-4{
+  padding:0px;
+}
+footer .social img{
+  height: 30px;
+}
+
+footer .closed{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+footer .closeda{
+  border-top: 2px solid white;
+}
+footer .third{
+  padding-top: 15px;
+}
+.topfooter{
+  padding-bottom: 10px;
+  margin:10px 0px;
+}
+
+.topfooter .social a{
+  padding: 5px;
+}
+.endfooter{
+  border-top:double; 
+  padding-top: 10px;
+}
+.endfooter p{
+  margin-bottom: 0px;
+  font-size: 0.7rem;
+}
+.first-box{
+  border-right: solid #000;
+  width: 50% !important;
+}
+.second-box{
+  width: 50% !important;
+}
+.third-box{
+  margin-top: 20px;
+}
+@media only screen and (max-width: 321px) {
+  .endfooter p {
+    font-size: 0.5rem;
+  }
+  .topfooter h4{
+  font-size: 1.1rem;
+  font-weight: 600;
+  } 
+}
+  .findus img{
+  height: 50px;
+  width: 60px;
+  margin-right: 10px;
+}
+}
+
+@media only screen and (max-width: 790px) and (min-width: 760px){
+  .findus img{
+  height: 4vh;
+  width: 5vw;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+}
+
+@media only screen and (max-width: 780px) and (min-width: 760px) {
+  .menu-slider img{
+    width: 100%;
+  }
+  .menu-slider li{
+    padding-right: 0;
+  }
+  .aboutcontent .col-md-6{
+    width: 100vw;
+    max-width: 100% !important;
+    flex: 0 0 100%;
+  }
+  .card-menu{
+    padding: 0; 
+  }
+ .flip-card-inner{
+  border-radius: 10%;
+ }
+ .s1{
+  padding-top: 0 !important;
+}
+.third-box{
+  margin-top: 0;
+  width: 100% !important;
+  border-left: 2px solid black;
+}
+}
+
+@media only screen and (max-width: 849px) and (min-width: 800px){
+  .s1 {
+    padding-top: 0vh ;
+  }
+  .second-box{
+    border-right: 2px solid black;
+  }
+}
+
+.card-menu .flip-card-front {
+  height: 60vh;
+  width: 80%;
+  margin: 0 10% 5vh 10%;
+  border-radius: 5%;
+}
+
+.joinus{
+  margin: 10px 10px 0px 10px;
+}
+
+.career h1{
+  margin-bottom: 5vh;
+}
+
+.careerh2o h2{
+  margin: 5vh 0;
+}
+
+.reservationsubmit{
+  margin-top: 5vh;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.button {
+  border: 1px solid grey;
+  color: black;
+  background-color: rgba(239, 204, 162);
+  background-color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+ .menu-slider li{
+    padding-right: 0;
+  }
+
+.menu-container {
+  max-width: 60vw;
+  max-height: 60vh;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.menu-container div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.menu-container img {
+  width: 60vw;
+  height: 60vh;
+}
+.menuslider{
+  position: relative;
+  border-bottom: 2px solid black;
+}
+
+.menuslider-data{
+  padding:0vh 0vh 5vh 0vh;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.about{
+  padding: 5vh 3vw 0 3vw;
+  border-bottom: 2px solid black;
+}
+.abouthead{
+  margin-bottom: 5vh;
+}
+  .aboutcontent{
+    margin-bottom: 7vh;
+  }
+.about-content{
+  padding: 10px;
+  text-align: justify;
+  text-align-last: center;
+  color: black;
+  border: 1px solid;
+  border-radius: 1%;
+}
+
+.about-map iframe{
+  border-radius: 1%;
+  margin-top: 7vh;
+}
+
+.event{
+  margin: 5vh 0;
+  border-bottom: 2px solid black;
+}
+
+.eventslider img{
+  height: 70vh !important;
+  margin-top: 1vh;
+}
+.eventslider li{
+      padding-right:0;
+}
+
+.uk-slider-items li a:hover{
+  transform: none;
+  transition: none;
+}
+
+.reservationhead{
+  margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 1028px) and (min-width: 768px){
+  .container .row .col-md-6{
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .careerh2o .row .col-md-6{
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .career-contact{
+    max-width: 100%;
+    width: 100%;
+    margin-top: 3vh;
+  }
+  .career{
+    margin-top: 1vh;
+  }
+  .about-about{
+        padding: 0 30px;
+  }
+  .join-form .upload-btn-wrapper{
+    margin-left: -40%;
+  }
+}
+
+@media only screen and (max-width: 840px) and (min-width: 250px){
+  .card-menu{
+    width: 100vw;
+    margin: 0;
+  }
+  .card-menu .col-md-4{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+/*Slider Branch Slider*/
+.slider{
+  padding: 20px;
+}
+.slider img{
+  height: 30vh;
+  width: 100%;
+}
+@media only screen and (max-width: 799px) and (min-width: 650px)  {
+  .main-slider img{
+    height: 40vh;
+    width: 100%;
+  }
+
+}
+@media only screen and (max-width: 1035px) and (min-width: 950px)  {
+  .main-slider img{
+    height: 22vh;
+    width: 100%;
+  }
+  .nav-mid{
+  margin-left: 200px;
+  }
+  .nav-mid li{
+  padding: 0 20px;
+}
+}
+
+@media only screen and (max-width: 1035px)and (min-width: 998px){
+  .eventslider img{
+    height: 50vh !important;
+  }
+  .slider-container{
+    height: 50vh;
+  }
+  .s1{
+    padding-top: 0 !important;
+  }
+  .career .col-md-6{
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .joinus p{
+    width: 92%;
+    margin:0 4%;
+  }
+  .career-contact h1{
+    width: 90vw;
+  }
+  .career-contact .container{
+    width: 90vw;
+  }
+  .card-menu{
+    width: 100vw;
+    margin: 0;
+  }
+  .stretched-link::after{
+    width: 80%;
+  }
+}
+
+/*Footer*/
+@media only screen and (max-width: 768px) and (min-width: 245px){
+  .second-box p{
+     margin-bottom: 27px !important;
+  }
+}
+
+.card{
+  width: 20%;
+  margin: 6%;
+  height: 25vw;
+  background-image: url('../img/beer.jpg');
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px){
+  .card{
+    width: 60%;
+    margin: 5% 20%;
+    height: 50vh;
+    background-image: url('../img/beer.jpg');
+    background-size: cover;
+  }
+  .first-box .col-md-4{
+    height: 18vh;
+  }
+  .second-box .col-md-4{
+    height: 18vh;
+  }
+}
